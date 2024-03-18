@@ -12,6 +12,7 @@ public class main {
 			// variables
 		int menu;
 		int num1,num2;
+	
 		
 		// decimos los núermos por interfaz
 		System.out.println("Dime el primer número");
