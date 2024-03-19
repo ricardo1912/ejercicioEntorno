@@ -2,9 +2,9 @@ package Calculadora;
 
 public class calcular {
 	// funcion suma
-	public static int suma(int num1, int num2) {
+	public static int suma(int num1, int num2,int num3) {
 		int suma;
-		suma = num1 +num2;
+		suma = num1 +num2+ num3;
 		return suma;
 	}
 	// funcion resta

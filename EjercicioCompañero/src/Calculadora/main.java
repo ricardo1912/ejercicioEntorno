@@ -12,6 +12,7 @@ public class main {
 			// variables
 		int menu;
 		int num1,num2;
+		int num3;
 	
 		
 		// decimos los núermos por interfaz
@@ -19,6 +20,9 @@ public class main {
 		num1 = escanero.nextInt();
 		System.out.println("Dime el segundo núemero");
 		num2 = escanero.nextInt();
+		System.out.println("Dime el tercer número");
+		num3 = escanero.nextInt();
+		
 		
 		// creamos el menu
 		do {
@@ -31,7 +35,7 @@ public class main {
 			 
 			switch (menu) {
 			case 1: {
-				calculadora.suma(num1, num2);
+				calculadora.suma(num1, num2,num3);
 				break;
 			}
 			case 2:{
